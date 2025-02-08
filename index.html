@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emanuel - Bienvenida</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Georgia, serif;
+            background-color: #f2f2f0;
+            color: white;
+            text-align: center;
+            background-image: url('FondoBl.gif');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .menu {
+            position: absolute;
+            top: 60px;
+            display: flex;
+            gap: 200px;
+        }
+        .menu a {
+            color: black;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: normal;
+            transition: transform 0.3s ease;
+        }
+        .menu a:hover {
+            text-decoration: underline;
+            transform: scale(1.1);
+        }
+        .logo {
+            max-width: 200px;
+            height: auto;
+        }  
+        @media (max-width: 768px) {
+            .menu {
+                flex-direction: row;
+                gap: 40px;
+                top: 10px;
+            }
+    </style>
+</head>
+<body>
+    <nav class="menu">
+        <a href="https://readymag.website/u4020055355/emanuel/?fbclid=PAZXh0bgNhZW0CMTEAAaYNqlYduyWRv2vSCt5YwLLK6Eu4n_J7ANN7op8ddAm1Alk9nKLFDlXJBeQ_aem_74jH8cueGm7PfZaN2kGk9g" target="_blank">Música</a>
+        <a href="https://readymag.website/u4020055355/emanuel/3/?fbclid=PAZXh0bgNhZW0CMTEAAaZICLi6Ec_RLwoIzsUGsZUt265Mjs68TewzoBeB-LO14xqRuoarqneBGhY_aem_Dwe2BuCTySE6O2b2IP9-3w">Biografía</a>
+        <a href="https://readymag.website/u4020055355/emanuel/2/?fbclid=PAZXh0bgNhZW0CMTEAAaZICLi6Ec_RLwoIzsUGsZUt265Mjs68TewzoBeB-LO14xqRuoarqneBGhY_aem_Dwe2BuCTySE6O2b2IP9-3w">Nuevo</a>
+    </nav>
+    <img src="IsoLoop.gif" alt="Logotipo de Emanuel" class="logo">
+</body>
+</html>
